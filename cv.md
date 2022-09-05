@@ -47,3 +47,11 @@ function findNeedle(haystack) {
   return `found the ${found} at position ${haystack.indexOf(found)}`;
 }
 ```
+## Work Experience
+I haven't had the commercial work experience in web development yet, but I'm developing my own project in my spare time. <br>
+Here's the link to it [RacePlace](https://stevenris.github.io/race_place_v2/)
+
+---
+
+## Education
+> **Minsk Institute of management**

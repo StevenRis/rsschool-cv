@@ -1,0 +1,35 @@
+[33mcommit aee7978f49983520d09b5e2cf5e3fb13becc48a3[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: Stanisław Griszko <s.griszko@gmail.com>
+Date:   Mon Sep 5 15:43:39 2022 +0200
+
+    feat: add code example section
+
+[33mcommit edb5507f81480f2ff9ab28893ae371e299011815[m
+Author: Stanisław Griszko <s.griszko@gmail.com>
+Date:   Mon Sep 5 15:36:34 2022 +0200
+
+    fix: save skills section
+
+[33mcommit dac79e6f75cc15230ba2e56d27dce16eb86bcab9[m
+Author: Stanisław Griszko <s.griszko@gmail.com>
+Date:   Mon Sep 5 15:32:51 2022 +0200
+
+    init: implement about_me, skills section
+
+[33mcommit 2f2281835cf21782518c419c0f08d32b18a21389[m
+Author: Stanisław Griszko <s.griszko@gmail.com>
+Date:   Mon Sep 5 14:47:27 2022 +0200
+
+    feat: implement name, surname; contact information
+
+[33mcommit 3f851236cc567f2e895dd245bfbb1943a44a1f88[m
+Author: Stanisław Griszko <s.griszko@gmail.com>
+Date:   Sun Sep 4 14:00:26 2022 +0200
+
+    init: start cv#1 markdown & git
+
+[33mcommit bea4453a7a525b2d4e5f19025d08cda46166c412[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Stanisław <71280629+StevenRis@users.noreply.github.com>
+Date:   Sun Sep 4 13:48:18 2022 +0200
+
+    Initial commit
