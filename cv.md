@@ -34,3 +34,16 @@ I must admit that it gives me a lot of motivation and joy implementing and devel
 * Hard-working
 * Problem solving
 * Effective communication
+
+---
+
+## Code example
+**Can you find the needle in the haystack? Write a function findNeedle() that takes an array full of junk but containing one "needle"** 
+```
+function findNeedle(haystack) {
+   
+  const found = haystack.find(el => el == "needle");
+  
+  return `found the ${found} at position ${haystack.indexOf(found)}`;
+}
+```
