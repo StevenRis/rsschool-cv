@@ -7,7 +7,7 @@
 **Phone:** +48 577 029 034 <br>
 **Discord:** Stanisław Griszko (@stevenris)<br>
 [LinkedIn](https://www.linkedin.com/in/stanislaw-griszko/) [Github](https://github.com/StevenRis)
-[Portfolio](https://www.linkedin.com/in/stanislaw-griszko/)
+[Portfolio](https://stevenris.github.io/portfolio/)
 
 
 ---
@@ -40,7 +40,7 @@ I must admit that it gives me a lot of motivation and joy implementing and devel
 
 ---
 
-## Code example
+## Code example from codewars
 **Can you find the needle in the haystack? Write a function findNeedle() that takes an array full of junk but containing one "needle"** 
 ```
 function findNeedle(haystack) {
