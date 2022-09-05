@@ -65,3 +65,8 @@ Here's the link to it [RacePlace](https://stevenris.github.io/race_place_v2/)
 *Computer Science / CS50*
 
 ---
+
+### Languages
+* English - B2
+* Polish - B2
+* Russian - Native
