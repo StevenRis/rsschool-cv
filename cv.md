@@ -54,4 +54,14 @@ Here's the link to it [RacePlace](https://stevenris.github.io/race_place_v2/)
 ---
 
 ## Education
-> **Minsk Institute of management**
+**Minsk Institute of management** <br>
+Specialty: Linguistics of the English language <br>
+Specialization: Linguist-translator
+
+**Udemy Course** <br>
+The Complete 2021 Web Development Bootcamp
+
+**HarvardX** <br>
+Computer Science / CS50
+
+---
