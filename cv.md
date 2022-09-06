@@ -1,5 +1,5 @@
 # Stanisław Griszko 
-![Image](https://avatars.githubusercontent.com/u/71280629?v=4)
+![Image](https://github.com/StevenRis/img/blob/main/IMG_0058%201.png?raw=true)
 ---
 ### Contact information
 
