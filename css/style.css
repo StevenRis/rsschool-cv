@@ -5,8 +5,15 @@
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 11px;
+}
+
 body {
+  font-family: Montserrat, sans-serif;
   background-color: #EDEDED;
+
 }
 
 .wrapper {
@@ -28,5 +35,9 @@ body {
 }
 
 .avatar {
+  display: flex;
+}
+
+.contact_information__social {
   display: flex;
 }
