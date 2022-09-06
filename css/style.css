@@ -7,7 +7,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 body {
@@ -35,7 +35,8 @@ a {
 }
 
 .header_wrapper {  
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   background-color: #DFB131;
 }
 
@@ -43,19 +44,29 @@ a {
   display: flex;
 }
 
-.contact_information {
-margin: 13px 27px;
+.personal_data {
+/* margin: 13px 27px; */
+/* margin-right: 30px; */
 }
 
-.contact_information > div {
-  margin-bottom: 10px;
+.personal_data > div {
+  /* margin-bottom: 10px; */
 }
 
 .contact_information__social {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  /* margin-top: 50px; */
 }
 
 .contact_information__social .social_links > div {
   margin-bottom: 8px;
+}
+
+.social_links a {
+  display: flex;
+}
+
+.social_links img {
+  margin-right: 5px;
 }
