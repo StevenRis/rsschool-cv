@@ -1,0 +1,32 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDEDED;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #CDCDCD;
+}
+
+.container {
+  width: 595px;
+  height: 842px;
+}
+
+.header_wrapper {  
+  display: flex;
+  background-color: #DFB131;
+}
+
+.avatar {
+  display: flex;
+}
