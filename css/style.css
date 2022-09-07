@@ -7,7 +7,6 @@
 
 html {
   box-sizing: border-box;
-  font-size: 12px;
 }
 
 body {
@@ -15,58 +14,86 @@ body {
   background-color: #EDEDED;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 a {
+  font-size: 13px;
   font-weight: 600;
   color: #000000;
   text-decoration: none;
 }
 
-.wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #CDCDCD;
+hr {
+  height: 1px;
+  background-color: #000000;
+  border: none;
 }
 
 .container {
-  width: 595px;
-  height: 842px;
+  width: 1024px;
+  margin: 20px auto;
+  background-color: #CDCDCD;
 }
 
 .header_wrapper {  
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   background-color: #DFB131;
 }
 
 .avatar {
   display: flex;
+  width: 40%;
 }
 
 .personal_data {
-/* margin: 13px 27px; */
-/* margin-right: 30px; */
+  /* width: 60%; */
+  padding: 0 30px;
 }
 
-.personal_data > div {
+.name, .job_position {
+  margin: 10px 0;
   /* margin-bottom: 10px; */
 }
 
+.contact_information__heading {
+  margin-top: 7px;
+  
+}
+
 .contact_information__social {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* margin-top: 50px; */
-}
-
-.contact_information__social .social_links > div {
-  margin-bottom: 8px;
-}
-
-.social_links a {
   display: flex;
 }
 
+.contact_information__social div {
+  margin-top: 10px;
+  margin: 3px 30px 6px 0;
+}
+
 .social_links img {
+  width: 15px;
   margin-right: 5px;
+}
+
+.about_me { 
+/* width: 95%; */
+}
+
+.about_me p {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: justify;
+  margin-top: 6px;
 }
