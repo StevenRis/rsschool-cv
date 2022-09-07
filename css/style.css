@@ -48,16 +48,19 @@ hr {
   background-color: #CDCDCD;
 }
 
+/* header styles */
 .header_wrapper {  
   display: flex;
   background-color: #DFB131;
 }
 
+/* avatar styles*/
 .avatar {
   display: flex;
   width: 40%;
 }
 
+/* personal info styles */
 .personal_data {
   /* width: 60%; */
   padding: 0 30px;
@@ -65,7 +68,6 @@ hr {
 
 .name, .job_position {
   margin: 10px 0;
-  /* margin-bottom: 10px; */
 }
 
 .contact_information__heading {
@@ -87,6 +89,7 @@ hr {
   margin-right: 5px;
 }
 
+/* about me styles */
 .about_me { 
 /* width: 95%; */
 }
@@ -96,4 +99,21 @@ hr {
   font-weight: 500;
   text-align: justify;
   margin-top: 6px;
+}
+
+/* two columns */
+.container_columns {
+  
+}
+
+/* skills styles */
+.skills {
+  width: 37%;
+  height: 900px;
+  background-color: #9C9C9C;
+}
+
+.experience {
+  width: 60%;
+  height: 90%;
 }
