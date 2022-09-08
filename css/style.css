@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: Montserrat, sans-serif;
+  font-size: 13px;
   background-color: #EDEDED;
 }
 
@@ -103,7 +104,7 @@ hr {
 
 /* two columns */
 .container_columns {
-  
+  display: flex;
 }
 
 /* skills styles */
@@ -113,12 +114,14 @@ hr {
   background-color: #9C9C9C;
 }
 
-.hard_skills__heading {
+.hard_skills__heading,
+.soft_skills__heading {
   padding: 30px 0 0;
   text-align: center;
 }
 
-.hard_skills__skills{
+.hard_skills__skills,
+.soft_skills__skills{
   display: flex;
   flex-wrap: wrap;
   margin: 10px 20px 20px;
@@ -130,6 +133,14 @@ hr {
   padding: 7px;
   font-size: 14px;
   font-weight: 700;
+}
+
+.soft_skills__skills ul {
+  margin: 0 10px 10px 25px;
+}
+
+.soft_skills__skill {
+  margin: 7px 0;
 }
 
 .experience {
