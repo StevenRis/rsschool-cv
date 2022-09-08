@@ -30,7 +30,8 @@ h3 {
   font-weight: 600;
 }
 
-a {
+a,
+.copy_right {
   font-size: 13px;
   font-weight: 600;
   color: #000000;
@@ -47,6 +48,7 @@ hr {
   width: 1024px;
   margin: 20px auto;
   background-color: #CDCDCD;
+  box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 40%);
 }
 
 /* header styles */
@@ -109,8 +111,8 @@ hr {
 
 /* skills styles */
 .skills {
-  width: 37%;
-  height: 900px;
+  width: 380px;
+  height: 700px;
   background-color: #9C9C9C;
 }
 
@@ -175,4 +177,24 @@ code {
   color: #000000;
   background-color: #DFB131;
   border: 1px solid #999;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0px 50px;
+}
+
+.footer .github_link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github_link img {
+  margin-right: 5px;
 }
