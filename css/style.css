@@ -1,0 +1,205 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  background-color: #EDEDED;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+a,
+.copy_right {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+
+hr {
+  height: 2px;
+  background-color: #000000;
+  border: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 20px auto;
+  background-color: #CDCDCD;
+  box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 40%);
+}
+
+/* header styles */
+.header_wrapper {  
+  display: flex;
+  background-color: #DFB131;
+}
+
+/* avatar styles*/
+.avatar {
+  display: flex;
+  width: 40%;
+}
+
+/* personal data styles */
+.personal_data {
+  padding: 0 30px;
+}
+
+.name {
+  margin-top: 15px;
+}
+
+.job_position {
+  margin: 7px 0;
+}
+
+.contact_information__heading {
+  margin-top: 15px;
+  
+}
+
+.contact_information__social {
+  display: flex;
+}
+
+.contact_information__social div {
+  /* margin-top: 15px; */
+  margin: 5px 30px 6px 0;
+}
+
+.social_links img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+/* about me styles */
+.about_me p {
+  font-weight: 500;
+  text-align: justify;
+  margin-top: 6px;
+}
+
+/* two columns */
+.container_columns {
+  display: flex;
+}
+
+/* skills styles */
+.skills {
+  width: 380px;
+  height: 800px;
+  background-color: #9C9C9C;
+}
+
+.hard_skills__heading,
+.soft_skills__heading,
+.langs__heading,
+.institute__heading,
+.code__heading {
+  padding: 40px 25px 0;
+}
+
+.hard_skills__skills,
+.soft_skills__skills,
+.langs__languages {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 20px 0px;
+}
+
+.hard_skills__skill {
+  background-color: #DFB131;
+  margin: 5px;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.soft_skills__skills ul,
+.langs__languages ul {
+  margin: 0 10px 10px 25px;
+}
+
+.soft_skills__skill,
+.langs__language {
+  margin: 7px 0;
+}
+
+/* education styles */
+.education {
+  width: 60%;
+}
+
+.institute__items,
+.code_example {
+  margin: 0 10px 10px 35px;
+}
+
+.institute__item__title,
+.example__title {
+  font-weight: 600;
+  margin-top: 10px;
+  
+}
+
+.institute__item__spec {
+  margin: 5px 10px;
+  font-style: italic;
+}
+
+/* code styles */
+pre {
+  margin-top: 10px;
+}
+
+code {
+  display: block;
+  padding: 20px;
+  font-family: monospace;
+  color: #000000;
+  background-color: #DFB131;
+  border: 1px solid #999;
+}
+
+/* footer styles*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0px 50px;
+}
+
+.footer .github_link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github_link img {
+  margin-right: 5px;
+}
