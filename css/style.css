@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -39,13 +39,9 @@ a,
 }
 
 hr {
-  height: 1px;
+  height: 2px;
   background-color: #000000;
   border: none;
-}
-
-pre {
-  margin-top: 15px;
 }
 
 .container {
@@ -67,18 +63,21 @@ pre {
   width: 40%;
 }
 
-/* personal info styles */
+/* personal data styles */
 .personal_data {
-  /* width: 60%; */
   padding: 0 30px;
 }
 
-.name, .job_position {
-  margin: 10px 0;
+.name {
+  margin-top: 15px;
+}
+
+.job_position {
+  margin: 7px 0;
 }
 
 .contact_information__heading {
-  margin-top: 7px;
+  margin-top: 15px;
   
 }
 
@@ -87,8 +86,8 @@ pre {
 }
 
 .contact_information__social div {
-  margin-top: 10px;
-  margin: 3px 30px 6px 0;
+  /* margin-top: 15px; */
+  margin: 5px 30px 6px 0;
 }
 
 .social_links img {
@@ -149,6 +148,7 @@ pre {
   margin: 7px 0;
 }
 
+/* education styles */
 .education {
   width: 60%;
 }
@@ -167,6 +167,12 @@ pre {
 
 .institute__item__spec {
   margin: 5px 10px;
+  font-style: italic;
+}
+
+/* code styles */
+pre {
+  margin-top: 10px;
 }
 
 code {
@@ -178,7 +184,7 @@ code {
   border: 1px solid #999;
 }
 
-/* footer */
+/* footer styles*/
 .footer {
   display: flex;
   flex-direction: row;
