@@ -161,6 +161,16 @@
                         <div class="code_example">
                             <div class="example">
                                 <p class="example__title">Can you find the needle in the haystack? <br> Write a function findNeedle() that takes an array full of junk but containing one “needle”.</p>
+                                <pre>
+                                    <code>
+function findNeedle(haystack) {
+    
+    const found = haystack.find(el => el == "needle");
+    
+    return `found the ${found} at position ${haystack.indexOf(found)}`;
+}
+                                    </code>
+                                </pre>
                             </div>
                         </div>
                     </div>

@@ -167,3 +167,12 @@ hr {
 .institute__item__spec {
   margin: 5px 10px;
 }
+
+code {
+  display: block;
+  padding: 20px;
+  font-family: monospace;
+  color: #000000;
+  background-color: #DFB131;
+  border: 1px solid #999;
+}
