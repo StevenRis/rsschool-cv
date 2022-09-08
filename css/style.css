@@ -115,16 +115,19 @@ hr {
 }
 
 .hard_skills__heading,
-.soft_skills__heading {
-  padding: 30px 0 0;
-  text-align: center;
+.soft_skills__heading,
+.langs__heading,
+.institute__heading,
+.code__heading {
+  padding: 30px 25px 0;
 }
 
 .hard_skills__skills,
-.soft_skills__skills{
+.soft_skills__skills,
+.langs__languages {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 20px 20px;
+  margin: 10px 20px 0px;
 }
 
 .hard_skills__skill {
@@ -135,15 +138,32 @@ hr {
   font-weight: 700;
 }
 
-.soft_skills__skills ul {
+.soft_skills__skills ul,
+.langs__languages ul {
   margin: 0 10px 10px 25px;
 }
 
-.soft_skills__skill {
+.soft_skills__skill,
+.langs__language {
   margin: 7px 0;
 }
 
-.experience {
+.education {
   width: 60%;
-  height: 90%;
+}
+
+.institute__items,
+.code_example {
+  margin: 0 10px 10px 35px;
+}
+
+.institute__item__title,
+.example__title {
+  font-weight: 600;
+  margin-top: 10px;
+  
+}
+
+.institute__item__spec {
+  margin: 5px 10px;
 }
