@@ -44,6 +44,10 @@ hr {
   border: none;
 }
 
+pre {
+  margin-top: 15px;
+}
+
 .container {
   width: 1024px;
   margin: 20px auto;
@@ -93,12 +97,7 @@ hr {
 }
 
 /* about me styles */
-.about_me { 
-/* width: 95%; */
-}
-
 .about_me p {
-  font-size: 13px;
   font-weight: 500;
   text-align: justify;
   margin-top: 6px;
@@ -112,7 +111,7 @@ hr {
 /* skills styles */
 .skills {
   width: 380px;
-  height: 700px;
+  height: 800px;
   background-color: #9C9C9C;
 }
 
@@ -121,7 +120,7 @@ hr {
 .langs__heading,
 .institute__heading,
 .code__heading {
-  padding: 30px 25px 0;
+  padding: 40px 25px 0;
 }
 
 .hard_skills__skills,
